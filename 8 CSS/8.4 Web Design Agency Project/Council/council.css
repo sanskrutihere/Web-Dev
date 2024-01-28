@@ -1,0 +1,90 @@
+body {
+    font-family: 'Libre Baskerville', serif;
+    margin: 50px 50px 0 50px;
+    background-color: #faf9f6;
+    display: flex;
+    flex-direction: column;
+    min-height: 95vh;
+  }
+  .main {
+    flex: 1;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 3rem;
+    text-align: center;
+  }
+ 
+  h2{
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+  }
+  
+  footer {
+    text-align: right;
+    color: brown;
+  }
+  
+  .logo{
+    height: 100px;
+    width: 100px;
+    float: left;
+  }
+
+  .tile-image {
+    height: 150px;
+    margin-right: 50px;
+  }
+  
+  .card {
+    width: 40%;
+  }
+  
+  .left {
+    float: left;
+  }
+  
+  .right {
+    float: right;
+  }
+  
+  .council {
+    color: brown;
+  }
+  
+  @media (max-width: 680px) {
+    .logo{
+        height: 50px;
+        width: 50px;
+        float: left;
+    }
+
+    h1{      
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    
+    h2{
+        font-size: 1rem;
+    }
+
+    .card {
+      width: 100%;
+      display: block;
+      margin-bottom: 30px;
+      text-align: justify;
+    }
+
+    .card-text {
+        font-size: 0.80rem;
+    }
+
+    .card img {
+      margin-bottom: 10px;
+      width: 100%;
+      height: 100%;
+      display: inline;
+      object-fit: cover;
+    }
+  }
